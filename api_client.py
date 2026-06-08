@@ -61,7 +61,6 @@ def fetch_and_display_users(num_users):
 
 
 if __name__ == "__main__":
-    # Example calls from the task
     fetch_and_display_users(4)
     print()
     fetch_and_display_users(16)
