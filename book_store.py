@@ -41,13 +41,22 @@ class Book:
 
 if __name__ == "__main__":
     book1 = Book(
-        "The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565", 1925
+        "Harry Potter and the Philosopher's Stone",
+        "J.K. Rowling",
+        "978-0747532699",
+        1997,
     )
     book2 = Book(
-        "To Kill a Mockingbird", "Harper Lee", "978-0061120084", 1960
+        "The Alchemist",
+        "Paulo Coelho",
+        "978-0061122415",
+        1988,
     )
     book3 = Book(
-        "1984", "George Orwell", "978-0451524935", 1949
+        "A Man Called Ove",
+        "Fredrik Backman",
+        "978-1476738024",
+        2012,
     )
 
     print("Book Summaries:")
