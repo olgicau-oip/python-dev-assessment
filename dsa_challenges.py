@@ -34,14 +34,14 @@ def count_character_frequency(text):
 
 if __name__ == "__main__":
     print("Testing filter_and_sort_evens:")
-    numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+    numbers = [3, 1, 4, 7, 1, 5, 9, 2, 6, 8]
     result = filter_and_sort_evens(numbers)
     print(f"Input: {numbers}")
     print(f"Output: {result}")
     print()
 
     print("Testing count_character_frequency:")
-    text = "Hello World"
+    text = "This my task for Basic Data Structures & Algorithms"
     result = count_character_frequency(text)
     print(f"Input: {text}")
     print(f"Output: {result}")
