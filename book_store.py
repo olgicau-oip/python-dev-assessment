@@ -33,15 +33,24 @@ class Book:
         Returns:
             A formatted string with title, author, and publication year
         """
-        return f"Title: {self.title}, Author: {self.author}, Published: {self.publication_year}"
+        return (
+            f"Title: {self.title}, Author: {self.author}, "
+            f"Published: {self.publication_year}"
+        )
 
 
 # Example usage of the Book class
 if __name__ == "__main__":
     # Create instances of Book
-    book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565", 1925)
-    book2 = Book("To Kill a Mockingbird", "Harper Lee", "978-0061120084", 1960)
-    book3 = Book("1984", "George Orwell", "978-0451524935", 1949)
+    book1 = Book(
+        "The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565", 1925
+    )
+    book2 = Book(
+        "To Kill a Mockingbird", "Harper Lee", "978-0061120084", 1960
+    )
+    book3 = Book(
+        "1984", "George Orwell", "978-0451524935", 1949
+    )
 
     # Test get_summary() method
     print("Book Summaries:")
