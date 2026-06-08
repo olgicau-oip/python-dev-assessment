@@ -32,9 +32,7 @@ def count_character_frequency(text):
     return frequency
 
 
-# Example calls to test the functions
 if __name__ == "__main__":
-    # Test filter_and_sort_evens
     print("Testing filter_and_sort_evens:")
     numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
     result = filter_and_sort_evens(numbers)
@@ -42,7 +40,6 @@ if __name__ == "__main__":
     print(f"Output: {result}")
     print()
 
-    # Test count_character_frequency
     print("Testing count_character_frequency:")
     text = "Hello World"
     result = count_character_frequency(text)
