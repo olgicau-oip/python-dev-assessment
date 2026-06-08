@@ -31,7 +31,6 @@ def get_list_element(my_list, index):
 
 
 if __name__ == "__main__":
-    # Examples for calculate_average
     data1 = [10, 20, 30]
     data2 = [5, 7, 9, 11]
     data3 = []
@@ -42,7 +41,6 @@ if __name__ == "__main__":
     print(f"data3: {data3} -> average: {calculate_average(data3)}")
     print()
 
-    # Examples for get_list_element
     sample_list = ["apple", "banana", "cherry"]
     print("Testing get_list_element:")
     print(f"Valid index 1: {get_list_element(sample_list, 1)}")
