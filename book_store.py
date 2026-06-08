@@ -39,9 +39,7 @@ class Book:
         )
 
 
-# Example usage of the Book class
 if __name__ == "__main__":
-    # Create instances of Book
     book1 = Book(
         "The Great Gatsby", "F. Scott Fitzgerald", "978-0743273565", 1925
     )
@@ -52,14 +50,12 @@ if __name__ == "__main__":
         "1984", "George Orwell", "978-0451524935", 1949
     )
 
-    # Test get_summary() method
     print("Book Summaries:")
     print(book1.get_summary())
     print(book2.get_summary())
     print(book3.get_summary())
     print()
 
-    # Test get_age() method
     print("Book Ages:")
     print(f"{book1.title} is {book1.get_age()} years old")
     print(f"{book2.title} is {book2.get_age()} years old")
