@@ -1,11 +1,11 @@
 def filter_and_sort_evens(numbers):
     """
-    Takes a list of integers and returns a new list containing only the even numbers,
-    sorted in ascending order.
-    
+    Takes a list of integers and returns a new list containing only the
+    even numbers, sorted in ascending order.
+
     Args:
         numbers: A list of integers
-        
+
     Returns:
         A sorted list of even numbers in ascending order
     """
@@ -17,12 +17,13 @@ def count_character_frequency(text):
     """
     Takes a string and returns a dictionary with character frequencies.
     Counting is case-insensitive (e.g., 'H' and 'h' both count towards 'h').
-    
+
     Args:
         text: A string to analyze
-        
+
     Returns:
-        A dictionary where keys are lowercase characters and values are their frequencies
+        A dictionary where keys are lowercase characters and
+        values are their frequencies
     """
     frequency = {}
     for char in text.lower():
@@ -40,7 +41,7 @@ if __name__ == "__main__":
     print(f"Input: {numbers}")
     print(f"Output: {result}")
     print()
-    
+
     # Test count_character_frequency
     print("Testing count_character_frequency:")
     text = "Hello World"
